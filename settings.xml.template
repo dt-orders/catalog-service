@@ -1,0 +1,16 @@
+<settings>
+    <profiles>
+        <profile>
+            <id>artifactory-plugin-properties</id>
+            <properties>
+                <username>[YOUR_USERNAME]</username>
+                <password>[YOUR_PASSWORD]</password>
+                 <contextUrl>https://[YOUR_ACCOUNT].jfrog.io/artifactory/[YOUR_MAVEN_REPO]</contextUrl>
+            </properties>
+        </profile>
+    </profiles>
+
+    <activeProfiles>
+        <activeProfile>artifactory-plugin-properties</activeProfile>
+    </activeProfiles>
+</settings>
